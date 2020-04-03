@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Tim Hortons</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet" href="css/css.css">
+    </head>
+    <body>
+        
+        <div class="logoDiv">   
+        <img alt="Tim Hortons Logo" src="images/tim-hortons-logo.jpg">
+        </div>
+        <h1>Welcome to Tim Horton's</h1>
+        <div class="blockA">
+            <h3>Give us some numbers...</h3>
+        <form class="formA" method="POST" action="index.php">
+           
+            <label>Number of Coffees:&#160</label>
+            <input type="number" name="coffeeCount" min="1" max="100"><br>
+            <label>Size:&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160
+            &#160&#160&#160&#160&#160&#160&#160&#160&#160&#160</label>
+                                <select id="coffeeSize" name="coffeeSize[]">
+                                    <option value="Small">Small</option>
+                                    <option value="Medium">Medium</option>
+                                    <option value="Large" >Large</option>
+                                    <option value="ExtraLarge">Extra Large</option>
+                                  </select><br>
+             <label>How many creams?:</label>
+             <input type="number" name="creamCount" min="0" max="100"><br>
+             <label>How many sugars?:&#160</label>
+                <input type="number" name="sugarCount" min="0" max="100"><br>
+                <input type="submit" value="Order Coffee"> 
+        </form>
+            
+        </div>
+        
+         <div class="blockB">
+            <h3>...or use the slang!</h3>
+        <form class="formB" method="POST" action="slang.php">
+           
+                <input type="number" name="coffeeCount" min="1" max="100">
+                <select id="coffeeSize" name="coffeeSize[]">
+                                    <option value="Small">Small</option>
+                                    <option value="Medium">Medium</option>
+                                    <option value="Large" >Large</option>
+                                    <option value="ExtraLarge">Extra Large</option>
+                                  </select><br>
+                <input type="radio" name="creamAsug" value="1">Regular<br>
+                <input type="radio" name="creamAsug" value="2">Double Double<br>
+                <input type="radio" name="creamAsug" value="3">Triple Triple<br>
+                <input type="radio" name="creamAsug" value="4">Black<br>
+                <input type="radio" name="creamAsug" value="5">Black One Sugar<br>
+                <input type="radio" name="creamAsug" value="6">Black Two Sugar<br>
+                <input type="radio" name="creamAsug" value="7">Black Three Sugar<br>
+                <input type="submit" value="Order Coffee"> 
+        </form>
+            
+        </div>
+    </body>
+</html>

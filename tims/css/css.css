@@ -1,0 +1,58 @@
+div{
+    border-style: solid;
+    background-color:white;
+}
+
+body{
+    background-color:bisque;
+}
+
+div.blockB{
+    
+    border-style: solid;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    padding-right: 100px;
+    width: 500px;
+    
+}
+
+input, label{
+   margin-top: 5px;
+   margin-bottom:5px;
+}
+
+.blockA {  
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    padding-right: 100px;
+    width: 500px;
+	}
+
+.blockA label{
+		
+	}
+
+.blockA input{
+		
+	}
+        
+        .logoDiv{
+            border-style:none;
+            width:700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        h1{
+           margin-left: 765px;
+           
+        }
